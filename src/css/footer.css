@@ -1,12 +1,27 @@
 footer {
+    height: 150px;
     display: flex;
     background-color: #3e3e3e;
-    color: #568b8b;
     color: #ffffff;
     position: absolute;
-    width: calc(100% - 60px);
+    width: calc(100% - 130px);
     bottom: 0px;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 0px 65px;
+    font-size: 20px;
+}
+
+footer a {
+    background-color: #568b8b;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+}
+
+a svg {
+    display: block;
+    margin: auto;
 }

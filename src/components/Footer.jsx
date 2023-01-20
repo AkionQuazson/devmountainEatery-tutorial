@@ -1,5 +1,5 @@
 import React from "react";
-import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
+import { ImFacebook, ImInstagram, ImTwitter, ImGithub, ImPinterest } from "react-icons/im";
 import "../css/footer.css";
 
 const Footer = () => {
@@ -19,6 +19,9 @@ const Footer = () => {
           </a>
           <a href="https://www.devmountain.com" target="_blank" rel="noreferrer">
             <ImGithub size="1.5em" color="#3f3f3f" />
+          </a>
+          <a href="https://www.devmountain.com" target="_blank" rel="noreferrer">
+            <ImPinterest size="1.5em" color="#3f3f3f" />
           </a>
         </div>
       </div>

@@ -1,9 +1,9 @@
 header {
     background-color: #da7533;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 23px;
     display: flex;
-    height: 50px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
 }
@@ -18,4 +18,9 @@ header button {
     border: none;
     font-size: 18px;
     color: #ffffff;
+    border-radius: 5%;
+}
+
+header button:hover {
+    background-color: #f3b68e;
 }
