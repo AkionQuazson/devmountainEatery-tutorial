@@ -1,0 +1,21 @@
+header {
+    background-color: #da7533;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    margin-left: 35px;
+}
+
+header button {
+    margin-right: 25px;
+    background: #da7533;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+}
