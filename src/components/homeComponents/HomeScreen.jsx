@@ -16,6 +16,14 @@ const HomeScreen = () => {
     })
   }
 
+  const recipeDisplay = recipes.filter((recipe, i) => {
+    const title = recipe.recipe_name.toLowerCase();
+    const searchText = search.toLowerCase();
+    return title.includes(searchText)
+  }).map((recipe, i) => {
+    return <RecipeCard key={i} recipe={recipe}/>
+  })
+
   React.useEffect(() => {
     getRecipes()
   }, [])
@@ -33,7 +41,7 @@ const HomeScreen = () => {
         />
       </span>
       <div className='cardContainer'> 
-        <RecipeCard/>
+        {recipeDisplay}
       </div>
     </div>
   )

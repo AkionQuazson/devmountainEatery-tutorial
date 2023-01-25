@@ -70,7 +70,9 @@ button {
 
 .cardContainer {
 	display: flex;
-	width: 80%;
+	width: 90%;
     justify-content: space-evenly;
+	flex-wrap: wrap;
     margin: auto;
+	margin-bottom: 150px;
 }
