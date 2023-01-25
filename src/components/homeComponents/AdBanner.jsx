@@ -15,7 +15,7 @@ const AdBanner = () => {
         height: "300px"
       }}
     >
-      <div>
+      <div className="adBanner">
         <h3>New Recipe</h3>
         <h1>Pineapple Salmon</h1>
         <h3>

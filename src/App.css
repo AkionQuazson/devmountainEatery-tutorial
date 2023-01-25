@@ -21,3 +21,56 @@ time, mark, audio, video {
 }
 
 /* --------- Begin your CSS Below here --------- */
+html {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.adBanner {
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.adBanner h3 {
+	width: 60%;
+	padding: 15px;
+	margin: auto;
+}
+
+.adBanner h1 {
+	color: #da7533;
+	font-size: 50px;
+	margin: 10px;
+}
+
+button { 
+	background-color: #568a8b;
+	color: #ffffff;
+	padding: 5px 15px;
+	font-size: 16px;
+	border: none;
+}
+
+.searchBar {
+	display: flex;
+	background-color: #f6ded0;
+	width: 300px;
+	margin: 20px auto;
+	border-radius: 50px;
+	padding: 3px;
+}
+
+.searchBar input {
+	width: 300px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+.cardContainer {
+	display: flex;
+	width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+}
