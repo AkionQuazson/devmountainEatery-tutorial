@@ -5,8 +5,8 @@ const RecipeCard = (props) => {
     let recipeName = '';
     const {recipe_name, recipe_id, image_url} = props.recipe;
 
-    if (recipe_name.length > 30) {
-        recipeName = recipe_name.slice(0, 30) + '...';
+    if (recipe_name.length > 50) {
+        recipeName = recipe_name.slice(0, 50) + '...';
     }
     else {
         recipeName = recipe_name;
@@ -18,7 +18,9 @@ const RecipeCard = (props) => {
     }
 
     return <div className='card'>
-        <img className='cardImg' src={image_url} alt={image_url} />
+        <div className='cardImg'>
+            <img className='cardImg' src={image_url} alt={image_url} />
+        </div>
         <h4 className='cardTxt'>{recipeName}</h4>
         <button onClick={(e) => handleClick}>See More</button>
     </div>
