@@ -1,9 +1,10 @@
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../../css/recipeCard.css';
 
 const RecipeCard = (props) => {
     let recipeName = '';
     const {recipe_name, recipe_id, image_url} = props.recipe;
+    const navigate = useNavigate();
 
     if (recipe_name.length > 50) {
         recipeName = recipe_name.slice(0, 50) + '...';
@@ -14,7 +15,7 @@ const RecipeCard = (props) => {
 
     const handleClick = () => {
         console.log('clicked');
-        Navigate(`/recipe/${recipe_id}`);
+        navigate(`/recipe/${recipe_id}`);
     }
 
     return <div className='card'>
@@ -22,7 +23,7 @@ const RecipeCard = (props) => {
             <img className='cardImg' src={image_url} alt={image_url} />
         </div>
         <h4 className='cardTxt'>{recipeName}</h4>
-        <button onClick={(e) => handleClick}>See More</button>
+        <button onClick={(e) => handleClick()}>See More</button>
     </div>
 }
 
