@@ -1,0 +1,48 @@
+.sectionHead {
+    height: 375px;
+    width: 100vw;
+    position: relative;
+}
+
+.sectionHead img {
+    height: 375px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.sectionTitle {
+    color: #da7533;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainContent div {
+    background-color: #ffffff;
+    filter: drop-shadow(0px 2px 2px #818181);
+}
+
+ul {
+    list-style: none;
+}
+
+.listContent {
+    width: 100px;
+}
+
+.instructions {
+    width: 300px;
+}
+
+.mainContent h4 {
+    text-align: center;
+    width: 100%;
+}

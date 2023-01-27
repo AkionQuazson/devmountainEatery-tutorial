@@ -19,6 +19,7 @@ header button {
     font-size: 18px;
     color: #ffffff;
     border-radius: 5%;
+    width: fit-content;
 }
 
 header button:hover {
