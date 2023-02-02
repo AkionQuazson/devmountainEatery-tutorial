@@ -6,6 +6,10 @@ header {
     height: 60px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    width: 100vw;
 }
 
 header h2 {

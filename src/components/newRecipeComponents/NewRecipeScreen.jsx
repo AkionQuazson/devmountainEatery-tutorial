@@ -20,7 +20,7 @@ const NewRecipeScreen = () => {
         <input type="text" id="ingredient" placeholder="Ingredient" />
         <input type="number" id="quantity" placeholder="Quanity"/>
         <button type="number" id="addIngredient">Add Another</button>
-        <textarea id="instructions">What are the instructions?</textarea>
+        <textarea id="instructions" placeholder="What are the instructions?"></textarea>
         <input type="submit" value="Save"/>
       </form>
     </section>

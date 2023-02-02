@@ -23,6 +23,7 @@ time, mark, audio, video {
 /* --------- Begin your CSS Below here --------- */
 html {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 60px;
 }
 
 .adBanner {
