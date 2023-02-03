@@ -6,11 +6,14 @@ form {
     width: 450px;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 input[type=text] {

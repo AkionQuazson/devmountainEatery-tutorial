@@ -24,9 +24,9 @@ const NewRecipeScreen = () => {
           <input type="text" id="serve" placeholder="Serves" />
         </div>
         <div className="row">
-          
           <input type="text" id="ingredient" placeholder="Ingredient" />
           <input type="number" id="quantity" placeholder="Quanity"/>
+          <ul></ul>
         </div>
         <button type="number" id="addIngredient">Add Another</button>
         <textarea id="instructions" placeholder="What are the instructions?"></textarea>
