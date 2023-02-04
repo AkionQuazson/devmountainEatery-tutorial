@@ -11,12 +11,18 @@ const NewRecipeScreen = () => {
           <input type="text" id="image" placeholder="Image URL"/>
         </div>
         <div className="row">
+          <div className="option">
           <input type="radio" name="type" id="cook" />
           <label htmlFor="cook">Cook</label>
+          </div>
+          <div className="option">
           <input type="radio" name="type" id="bake" />
           <label htmlFor="bake">Bake</label>
+          </div>
+          <div className="option">
           <input type="radio" name="type" id="drink" />
           <label htmlFor="drink">Drink</label>
+          </div>
         </div>
         <div className="row">
           <input type="text" id="prepTime" placeholder="Prep Time" />
