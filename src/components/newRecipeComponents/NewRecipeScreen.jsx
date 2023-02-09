@@ -26,12 +26,14 @@ const NewRecipeScreen = () => {
       .post(`https://recipes.devmountain.com/recipes`, values)
     }
     else {
-      alert("Input data");
+      alert("A text field is empty");
     }
   }
 
   const addIngredient = (e) => {
     e.preventDefault();
+    setIngName('');
+    setIngQuant('');
     setIngredients([...ingredients, {name:ingName, quantity:ingQuant}])
   }
 

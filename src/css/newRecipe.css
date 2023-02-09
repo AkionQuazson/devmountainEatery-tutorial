@@ -1,10 +1,11 @@
 h1 {
     text-align: center;
+    margin: 20px;
+    font-size: 30px;
 }
 
 form {
-    width: 300px;
-    height: 350px;
+    width: 450px;
     margin: auto;
     text-align: center;
     position: relative;
@@ -13,28 +14,31 @@ form {
     align-content: center;
     justify-content: space-between;
     margin-bottom: 170px;
+    font-size: 20px;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-content: center;
+    margin: 10px;
 }
 
 form input[type=text] {
     border: 1px solid #7c7c7c;
     padding: 5px;
+    font-size: 20px;
 }
 
 .half {
-    width: 40%;
+    width: 42%;
+    padding: 0;
 }
 
 div.half input {
     width: 100%;
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 10px;
 }
 
 .third {
@@ -49,12 +53,51 @@ div.half input {
 }
 
 input[type=radio] {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
 }
 
 label {
-    
-    font-size: 15px;
+    font-size: 20px;
+}
+
+ul.half {
+    font-weight: normal;
+    list-style-type: disc;
+    text-align: left;
+    margin: auto;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+ul.half li {
+    margin: 1px;
+}
+
+#addIngredient {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #da7533;
+}
+
+textarea {
+    font-size: 20px;
+    min-height: 100px;
+    padding: 5px;
+    margin: 10px -10px 10px 20px;
+}
+
+input[type=submit] {
+    width: 110px;
+    padding: 10px;
+    margin: auto;
+    border: none;
+    background-color: #568b8b;
+    color: #ffffff;
+    font-size: 18px;
 }
